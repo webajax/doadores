@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap);
+
+.sidebar-menu>li>a{ padding: 0px 5px 0px 15px; margin: 25px 0 0 0;}
+.main-sidebar{padding-top:40px}
+.main-sidebar .treeview{margin-bottom:1rem}
+.main-sidebar .treeview .pull-right-container{right:25px;margin-top:-10px}
+.main-sidebar .treeview .ico{vertical-align:middle; margin-right:5px; background-size:cover; background-repeat:no-repeat; width:25px; display:inline-block; height:25px}
+
+.main-sidebar .treeview .ico.calcs{background-image:url(/images/calcs.svg?8ad4498034a954712894d3ba9eea74e0)}
+.main-sidebar .treeview .ico.installations{background-image:url(/images/hardware.svg?8ad4498034a954712894d3ba9eea74e0)}
+.main-sidebar .treeview .ico.generator{background-image:url(/images/generator.svg?9357a8feb70f74d8dd7bbd6f8160f400)}
+.main-sidebar .treeview .ico.plans{background-image:url(/images/plans.svg?9357a8feb70f74d8dd7bbd6f8160f400)}
+.main-sidebar .treeview .ico.backoffice{background-image:url(/images/backoffice.svg?d6bc3207abf01600144ca5158b45386a);}
+.main-sidebar .treeview .ico.consumers{background-image:url(/images/consumers.svg?cab75b4d08ce9365dd0fa35ad50a6783)}
+.main-sidebar .treeview .ico.settings{background-image:url(/images/settings.svg?7a28b3ac4eae5ac2ce7530a12afd0657)}
+.main-sidebar .treeview .ico.users{background-image:url(/images/users.svg?7a28b3ac4eae5ac2ce7530a12afd0657)}
+
+
+.main-sidebar .treeview .ico.distribuidoras{background-image:url(/images/distribuidoras.svg?7a28b3ac4eae5ac2ce7530a12afd0657)}
+.main-sidebar .treeview .ico.classe_tarifaria{background-image:url(/images/classe_tarifaria.svg?7a28b3ac4eae5ac2ce7530a12afd0657)}
+.main-sidebar .treeview .ico.cadastros{background-image:url(/images/cadastros.svg?7a28b3ac4eae5ac2ce7530a12afd0657)}
+.main-sidebar .treeview .ico.users{background-image:url(/images/users.svg?7a28b3ac4eae5ac2ce7530a12afd0657)}
+
+
+
+.main-sidebar .treeview .link{font-size:1.5rem;font-weight:500;color:#393939}
+.main-sidebar .treeview .link .fa-angle-right{font-size:2.5rem}
+.main-sidebar .treeview .treeview-menu a{font-size:1.3rem; padding: 10px 0px 10px 20px;}
+.navbar-nav .ico{background-image:url(/images/exit.svg?5049ffb494a89f9e8158653ef5202161);background-size:cover;background-repeat:no-repeat;width:18px;display:inline-block;height:18px;vertical-align:middle;margin-right:5px}
+.navbar-nav a{color:#393939;font-weight:500}
+.section-home{height:calc(100vh - 110px);background-image:url(/images/home.png?6cd1d1484a84ae4533cf6d82dbf39dbc);background-position:50% 50%;background-size:cover}@media (max-width:480px){.section-home{background-position:-80px 50%}}
+.section-error{height:calc(100vh - 90px);background-image:url(/images/error.png?f716a43bd15c9d8140ce9aa0325ed8d0);background-position:50% 50%;background-size:cover}
+.sidebar, h1,h2,h3,h4,.user-menu{font-family:Orbitron,sans-serif}
+.content-wrapper{min-height:calc(100vh - 110px)!important}
+.btn-microsoft{background-color:#dc3b00!important;border-color:none}
+body, .btn{font-family: Courier, "Courier New", monospace;}
+
+
+.sidebar-menu .menu-open>a>.fa-angle-right, .sidebar-menu .menu-open>a>.pull-right-container>.fa-angle-right {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.direct-chat-messages {
+    max-height: calc(90vh - 180px);
+    height: auto;
+}
+
+.direct-chat-text {
+    margin-left: 0;
+    background: #f7f7f7;
+    border-color: #f7f7f7;
+    box-shadow: 0 0 4px -2px #f7f7f7;
+    overflow-x: auto;
+}
+
+.direct-chat-text:after,
+.direct-chat-text:before {
+    display: none !important;
+}
+
+.direct-chat-text .list-group {
+    margin: 5px 0;
+}
+
+.direct-chat-text table {
+    background: #FFF;
+    box-shadow: 0 0 0 1px #ddd;
+    margin: 1px 1px 20px;
+}
+
+.direct-chat-text .fa.fa-pull-right {
+    margin-top: 3px;
+}
