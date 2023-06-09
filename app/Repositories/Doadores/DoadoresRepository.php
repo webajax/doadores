@@ -101,9 +101,21 @@ class DoadoresRepository extends BaseRepository
                         ];
                     }
 
+                    #soma a quantidade
                     ContadorCartao::query()
                     ->where('tipo_cartao', $query->forma_pgto)
                     ->update($input, $contadorcartao->id) ;
+
+                    #faz um update no campo contador
+                    $input = [
+                        'contador' => 1
+                    ];
+
+                    #faz um update na tabela doadores na coluna contador colocando um true
+                    # para nao contabilizar novamente
+                    Doadores::query()
+                    ->where('id',$query->id)
+                    ->update($input,$query->id);
 
 
                 });
