@@ -78,6 +78,8 @@ class DoadoresRepository extends BaseRepository
                 ->where('contador', null)
                 ->get();
 
+            #NÃO FIZ PELA DATA DEVIDO AO TEMPO ENTÃO TIVE QUE FAZER COM FLAG
+
             if ($qtde) {
 
                 $qtde = collect($qtde);
