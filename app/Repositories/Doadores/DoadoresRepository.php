@@ -74,7 +74,7 @@ class DoadoresRepository extends BaseRepository
 
             #pega os cartoes que nao foram contabilizados na tabela de doadores
             $qtde = Doadores::query()
-                ->select('contador', 'forma_pgto')
+                ->select('contador', 'forma_pgto','id')
                 ->where('contador', null)
                 ->get();
 
