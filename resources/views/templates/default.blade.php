@@ -4,10 +4,10 @@
 
 <head>
     <base href="">
-    <title>Sistema Declaração</title>
+    <title>Sistema Doadores</title>
     <meta charset="utf-8" />
     <link rel="canonical" href="" />
-    <link rel="shortcut icon" href="{{ URL::to('assets/metronic/media/logos/logo_receita.png') }} " />
+
 
     <link href="{{ URL::to('assets/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ URL::to('assets/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
